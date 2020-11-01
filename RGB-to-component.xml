@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\James\Documents\kicad\RGB-to-component\RGB-to-component\RGB-to-component.sch</source>
-    <date>12/06/2020 06:48:47</date>
+    <date>02/11/2020 10:18:48</date>
     <tool>Eeschema (5.1.5)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -204,20 +204,20 @@
       <tstamp>5CCA16CB</tstamp>
     </comp>
     <comp ref="U6">
-      <value>74AHC1G86</value>
+      <value>74AHCT1G86</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <fields>
-        <field name="LCSC">C7471</field>
+        <field name="LCSC">C43417</field>
       </fields>
       <libsource lib="74xGxx" part="74AHC1G86" description="Single EX-OR Gate, Low-Voltage CMOS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC6CF7F</tstamp>
     </comp>
     <comp ref="U7">
-      <value>74AHC1G86</value>
+      <value>74AHCT1G86</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <fields>
-        <field name="LCSC">C7471</field>
+        <field name="LCSC">C43417</field>
       </fields>
       <libsource lib="74xGxx" part="74AHC1G86" description="Single EX-OR Gate, Low-Voltage CMOS"/>
       <sheetpath names="/" tstamps="/"/>
@@ -414,7 +414,7 @@
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C55317</field>
+        <field name="LCSC">C273884</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -443,12 +443,10 @@
       <tstamp>5D72C845</tstamp>
     </comp>
     <comp ref="U3">
-      <value>RS8752XQ</value>
-      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <value>RS8752XM</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
       <fields>
-        <field name="Field7">LT6206CMS8#PBF</field>
-        <field name="Field8">MSOP-8 Linear Technology/Analog</field>
-        <field name="LCSC">C255422</field>
+        <field name="LCSC">C255421</field>
       </fields>
       <libsource lib="Videobits" part="LT6206CMS8PBF" description=""/>
       <sheetpath names="/" tstamps="/"/>

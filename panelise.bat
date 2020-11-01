@@ -1,0 +1,1 @@
+java -jar .\kicadutil.jar pcb --file=.\RGB-to-component-panel.kicad_pcb panel --inset=0.35 --pitch=1.1
