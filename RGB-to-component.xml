@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\James\Documents\kicad\RGB-to-component\RGB-to-component\RGB-to-component.sch</source>
-    <date>02/11/2020 10:18:48</date>
-    <tool>Eeschema (5.1.5)-2</tool>
+    <source>C:\Users\James\OneDrive\kicad\RGB-to-component\RGB-to-component.sch</source>
+    <date>10/05/2021 06:44:19</date>
+    <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>VGA/SHART to YPbPr converter</title>
@@ -185,7 +185,7 @@
     </comp>
     <comp ref="J5">
       <value>3xRCA_CONN</value>
-      <footprint>custom_components:3xRCA_CONN</footprint>
+      <footprint>videobits:3xRCA_CONN_SINGLE</footprint>
       <fields>
         <field name="LCSC">NOT FITTED</field>
       </fields>
@@ -443,10 +443,10 @@
       <tstamp>5D72C845</tstamp>
     </comp>
     <comp ref="U3">
-      <value>RS8752XM</value>
-      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <value>RS8752XK</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
-        <field name="LCSC">C255421</field>
+        <field name="LCSC">C236994</field>
       </fields>
       <libsource lib="Videobits" part="LT6206CMS8PBF" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -799,7 +799,9 @@
       <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
       <docs>~</docs>
       <footprints>
-        <fp>SolderJumper*Bridged12*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
       </footprints>
       <fields>
         <field name="Reference">JP</field>
