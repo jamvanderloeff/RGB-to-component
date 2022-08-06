@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3xRCA_CONN-ossc
+F DOCUMENTATION
+$ENDCMP
+#
+$CMP LT6206CMS8PBF-Videobits
+F Linear Technology/Analog
+$ENDCMP
+#
+$CMP SCART_CONN-ossc
+F DOCUMENTATION
+$ENDCMP
+#
+#End Doc Library
