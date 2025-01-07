@@ -2,3 +2,5 @@
 kicadutil.jar
 *.zip
 *-backups
+*_old
+*-bak
